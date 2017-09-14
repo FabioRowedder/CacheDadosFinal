@@ -1,0 +1,25 @@
+{
+  "name": "cache",
+  "version": "1.0.0",
+  "description": "Gerenciador de Cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabio Rowedder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "body-parser": "*",
+    "ejs":"2.5.7",
+    "morgan": "*",
+    "redis": "*"
+  },
+  "engines": {
+    "node": "6.11.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  }
+}
